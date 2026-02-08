@@ -1,0 +1,32 @@
+cat > .gitignore <<'EOF'
+# datasets & caches
+datasets/
+**/datasets/
+.pyg_tu_cache/
+**/.pyg_tu_cache/
+
+# ML artifacts
+*.pt
+*.pth
+*.pkl
+
+# logs
+*.log
+EOFcat > .gitignore <<'EOF'
+# ignore datasets & caches
+datasets/
+**/datasets/
+.pyg_tu_cache/
+**/.pyg_tu_cache/
+
+# common ML artifacts
+*.pt
+*.pth
+*.pkl
+
+# python
+__pycache__/
+*.pyc
+.venv/
+EOF
+

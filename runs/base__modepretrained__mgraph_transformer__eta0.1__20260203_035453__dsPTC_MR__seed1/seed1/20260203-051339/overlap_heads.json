@@ -1,0 +1,12 @@
+{
+  "overlap_heads": [
+    {
+      "head": 1,
+      "layer_key": "encoder.layers.1"
+    },
+    {
+      "head": 3,
+      "layer_key": "encoder.layers.1"
+    }
+  ]
+}

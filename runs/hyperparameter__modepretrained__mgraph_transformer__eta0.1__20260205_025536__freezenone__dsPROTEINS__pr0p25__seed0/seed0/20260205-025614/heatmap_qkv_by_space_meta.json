@@ -1,0 +1,89 @@
+{
+  "counts": {
+    "Only_semantic": {
+      "K": 18,
+      "Q": 18,
+      "V": 18,
+      "qkv_params": 9
+    },
+    "Only_structure": {
+      "K": 18,
+      "Q": 18,
+      "V": 18,
+      "qkv_params": 9
+    },
+    "Other": {
+      "K": 54,
+      "Q": 54,
+      "V": 54,
+      "qkv_params": 9
+    },
+    "Overlap": {
+      "K": 18,
+      "Q": 18,
+      "V": 18,
+      "qkv_params": 9
+    }
+  },
+  "dataset": "PROTEINS",
+  "heatmap_batches": 3,
+  "heatmap_data_mode": "target",
+  "heatmap_ratio": 0.25,
+  "heatmap_stats_raw": {
+    "Only_semantic": {
+      "max": 0.6402567625045776,
+      "mean": 0.07778340578079224,
+      "sum": 7.467206954956055
+    },
+    "Only_structure": {
+      "max": 0.051355697214603424,
+      "mean": 0.005286675412207842,
+      "sum": 0.507520854473114
+    },
+    "Other": {
+      "max": 0.35557806491851807,
+      "mean": 0.037150271236896515,
+      "sum": 3.5664260387420654
+    },
+    "Overlap": {
+      "max": 1.25259530544281,
+      "mean": 0.049688611179590225,
+      "sum": 4.770106792449951
+    }
+  },
+  "masking": {
+    "binary": {
+      "heatmap_binary": false,
+      "heatmap_keep_percentile": 85.0,
+      "heatmap_percentile_mode": "global"
+    },
+    "dim_topk": {
+      "heatmap_topk_dim_k": null,
+      "heatmap_topk_dim_ratio": 0.8,
+      "heatmap_topk_mode": "per_row"
+    }
+  },
+  "num_qkv_params_total": 9,
+  "qkv_examples_per_space": {
+    "Only_semantic": [],
+    "Only_structure": [],
+    "Other": [],
+    "Overlap": [
+      "encoder.layers.0.attention.K.weight",
+      "encoder.layers.0.attention.Q.weight",
+      "encoder.layers.0.attention.V.weight",
+      "encoder.layers.1.attention.K.weight",
+      "encoder.layers.1.attention.Q.weight",
+      "encoder.layers.1.attention.V.weight",
+      "encoder.layers.2.attention.K.weight",
+      "encoder.layers.2.attention.Q.weight",
+      "encoder.layers.2.attention.V.weight"
+    ]
+  },
+  "space_sizes_qkv_params": {
+    "Only_semantic": 0,
+    "Only_structure": 0,
+    "Other": 0,
+    "Overlap": 9
+  }
+}

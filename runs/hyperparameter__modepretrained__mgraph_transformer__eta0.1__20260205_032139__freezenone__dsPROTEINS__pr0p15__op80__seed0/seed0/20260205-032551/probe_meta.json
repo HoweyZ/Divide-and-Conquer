@@ -1,0 +1,34 @@
+{
+  "heads_count": {
+    "overlap_heads": 3,
+    "top_heads_ce": 6,
+    "top_heads_con": 6
+  },
+  "layers_seen": 3,
+  "num_heads": 8,
+  "num_params": 45,
+  "overlap_def": "overlap_heads = selected_con ∩ selected_ce",
+  "overlap_threshold": {
+    "auto_relax": true,
+    "overlap_pct_ce_init": 80.0,
+    "overlap_pct_ce_used": 80.0,
+    "overlap_pct_con_init": 80.0,
+    "overlap_pct_con_used": 80.0,
+    "relax_min": 0.0,
+    "relax_step": 5.0
+  },
+  "per_layer": true,
+  "probe_batches_used": 2,
+  "probe_data_mode": "target",
+  "probe_dataset": "PROTEINS",
+  "probe_ratio": 0.15,
+  "qkv_params_seen": 18,
+  "qkv_params_with_layer_key": 18,
+  "select_mode": "percentile",
+  "sizes": {
+    "A": 0,
+    "B": 0,
+    "C": 9,
+    "D": 36
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dim_map": {
+    "Mutagenicity": 14,
+    "NCI1": 37,
+    "NCI109": 38,
+    "PROTEINS": 3,
+    "PTC_FM": 18,
+    "PTC_FR": 19,
+    "PTC_MM": 20,
+    "PTC_MR": 18
+  },
+  "gt_in_dim": 38
+}

@@ -1,0 +1,305 @@
+{
+  "A": [],
+  "B": [],
+  "C": [
+    "encoder.layers.0.attention.K.weight",
+    "encoder.layers.0.attention.Q.weight",
+    "encoder.layers.0.attention.V.weight",
+    "encoder.layers.1.attention.K.weight",
+    "encoder.layers.1.attention.Q.weight",
+    "encoder.layers.1.attention.V.weight",
+    "encoder.layers.2.attention.K.weight",
+    "encoder.layers.2.attention.Q.weight",
+    "encoder.layers.2.attention.V.weight"
+  ],
+  "D": [
+    "encoder.input_proj.bias",
+    "encoder.input_proj.weight",
+    "encoder.layers.0.FFN_layer1.bias",
+    "encoder.layers.0.FFN_layer1.weight",
+    "encoder.layers.0.FFN_layer2.bias",
+    "encoder.layers.0.FFN_layer2.weight",
+    "encoder.layers.0.O.bias",
+    "encoder.layers.0.O.weight",
+    "encoder.layers.0.batch_norm1.bias",
+    "encoder.layers.0.batch_norm1.weight",
+    "encoder.layers.0.batch_norm2.bias",
+    "encoder.layers.0.batch_norm2.weight",
+    "encoder.layers.1.FFN_layer1.bias",
+    "encoder.layers.1.FFN_layer1.weight",
+    "encoder.layers.1.FFN_layer2.bias",
+    "encoder.layers.1.FFN_layer2.weight",
+    "encoder.layers.1.O.bias",
+    "encoder.layers.1.O.weight",
+    "encoder.layers.1.batch_norm1.bias",
+    "encoder.layers.1.batch_norm1.weight",
+    "encoder.layers.1.batch_norm2.bias",
+    "encoder.layers.1.batch_norm2.weight",
+    "encoder.layers.2.FFN_layer1.bias",
+    "encoder.layers.2.FFN_layer1.weight",
+    "encoder.layers.2.FFN_layer2.bias",
+    "encoder.layers.2.FFN_layer2.weight",
+    "encoder.layers.2.O.bias",
+    "encoder.layers.2.O.weight",
+    "encoder.layers.2.batch_norm1.bias",
+    "encoder.layers.2.batch_norm1.weight",
+    "encoder.layers.2.batch_norm2.bias",
+    "encoder.layers.2.batch_norm2.weight",
+    "proj_head.0.bias",
+    "proj_head.0.weight",
+    "proj_head.2.bias",
+    "proj_head.2.weight"
+  ],
+  "_emb_dim": 32,
+  "_head_sets": {
+    "all": [
+      [
+        "encoder.layers.0",
+        0
+      ],
+      [
+        "encoder.layers.0",
+        1
+      ],
+      [
+        "encoder.layers.0",
+        2
+      ],
+      [
+        "encoder.layers.0",
+        3
+      ],
+      [
+        "encoder.layers.0",
+        4
+      ],
+      [
+        "encoder.layers.0",
+        5
+      ],
+      [
+        "encoder.layers.0",
+        6
+      ],
+      [
+        "encoder.layers.0",
+        7
+      ],
+      [
+        "encoder.layers.1",
+        0
+      ],
+      [
+        "encoder.layers.1",
+        1
+      ],
+      [
+        "encoder.layers.1",
+        2
+      ],
+      [
+        "encoder.layers.1",
+        3
+      ],
+      [
+        "encoder.layers.1",
+        4
+      ],
+      [
+        "encoder.layers.1",
+        5
+      ],
+      [
+        "encoder.layers.1",
+        6
+      ],
+      [
+        "encoder.layers.1",
+        7
+      ],
+      [
+        "encoder.layers.2",
+        0
+      ],
+      [
+        "encoder.layers.2",
+        1
+      ],
+      [
+        "encoder.layers.2",
+        2
+      ],
+      [
+        "encoder.layers.2",
+        3
+      ],
+      [
+        "encoder.layers.2",
+        4
+      ],
+      [
+        "encoder.layers.2",
+        5
+      ],
+      [
+        "encoder.layers.2",
+        6
+      ],
+      [
+        "encoder.layers.2",
+        7
+      ]
+    ],
+    "only_ce": [
+      [
+        "encoder.layers.0",
+        0
+      ],
+      [
+        "encoder.layers.1",
+        5
+      ],
+      [
+        "encoder.layers.1",
+        6
+      ],
+      [
+        "encoder.layers.2",
+        4
+      ]
+    ],
+    "only_con": [
+      [
+        "encoder.layers.0",
+        3
+      ],
+      [
+        "encoder.layers.1",
+        1
+      ],
+      [
+        "encoder.layers.1",
+        3
+      ],
+      [
+        "encoder.layers.2",
+        3
+      ]
+    ],
+    "overlap": [
+      [
+        "encoder.layers.0",
+        4
+      ],
+      [
+        "encoder.layers.0",
+        6
+      ],
+      [
+        "encoder.layers.1",
+        7
+      ],
+      [
+        "encoder.layers.2",
+        1
+      ],
+      [
+        "encoder.layers.2",
+        7
+      ]
+    ],
+    "top_ce": [
+      [
+        "encoder.layers.0",
+        0
+      ],
+      [
+        "encoder.layers.0",
+        4
+      ],
+      [
+        "encoder.layers.0",
+        6
+      ],
+      [
+        "encoder.layers.1",
+        5
+      ],
+      [
+        "encoder.layers.1",
+        6
+      ],
+      [
+        "encoder.layers.1",
+        7
+      ],
+      [
+        "encoder.layers.2",
+        1
+      ],
+      [
+        "encoder.layers.2",
+        4
+      ],
+      [
+        "encoder.layers.2",
+        7
+      ]
+    ],
+    "top_con": [
+      [
+        "encoder.layers.0",
+        3
+      ],
+      [
+        "encoder.layers.0",
+        4
+      ],
+      [
+        "encoder.layers.0",
+        6
+      ],
+      [
+        "encoder.layers.1",
+        1
+      ],
+      [
+        "encoder.layers.1",
+        3
+      ],
+      [
+        "encoder.layers.1",
+        7
+      ],
+      [
+        "encoder.layers.2",
+        1
+      ],
+      [
+        "encoder.layers.2",
+        3
+      ],
+      [
+        "encoder.layers.2",
+        7
+      ]
+    ]
+  },
+  "_num_heads": 8,
+  "_probe_data_mode": "target",
+  "_probe_dataset": "PROTEINS",
+  "_stats": {
+    "A": 0,
+    "B": 0,
+    "C": 9,
+    "D": 36,
+    "_head_sets": {
+      "all": 24,
+      "only_ce": 4,
+      "only_con": 4,
+      "overlap": 5,
+      "top_ce": 9,
+      "top_con": 9
+    }
+  }
+}

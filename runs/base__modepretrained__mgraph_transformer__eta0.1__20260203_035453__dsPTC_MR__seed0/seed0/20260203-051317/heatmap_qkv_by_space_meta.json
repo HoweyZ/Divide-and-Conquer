@@ -1,0 +1,89 @@
+{
+  "counts": {
+    "Only_semantic": {
+      "K": 4,
+      "Q": 4,
+      "V": 4,
+      "qkv_params": 9
+    },
+    "Only_structure": {
+      "K": 4,
+      "Q": 4,
+      "V": 4,
+      "qkv_params": 9
+    },
+    "Other": {
+      "K": 22,
+      "Q": 22,
+      "V": 22,
+      "qkv_params": 9
+    },
+    "Overlap": {
+      "K": 10,
+      "Q": 10,
+      "V": 10,
+      "qkv_params": 9
+    }
+  },
+  "dataset": "PTC_MR",
+  "heatmap_batches": 1,
+  "heatmap_data_mode": "target",
+  "heatmap_ratio": 0.1,
+  "heatmap_stats_raw": {
+    "Only_semantic": {
+      "max": 0.2390921711921692,
+      "mean": 0.017356308177113533,
+      "sum": 1.666205644607544
+    },
+    "Only_structure": {
+      "max": 0.03135909140110016,
+      "mean": 0.004009766969829798,
+      "sum": 0.3849376440048218
+    },
+    "Other": {
+      "max": 0.05645383894443512,
+      "mean": 0.008235146291553974,
+      "sum": 0.7905740141868591
+    },
+    "Overlap": {
+      "max": 0.10781975835561752,
+      "mean": 0.007972952909767628,
+      "sum": 0.7654034495353699
+    }
+  },
+  "masking": {
+    "binary": {
+      "heatmap_binary": false,
+      "heatmap_keep_percentile": 85.0,
+      "heatmap_percentile_mode": "global"
+    },
+    "dim_topk": {
+      "heatmap_topk_dim_k": null,
+      "heatmap_topk_dim_ratio": 0.8,
+      "heatmap_topk_mode": "per_row"
+    }
+  },
+  "num_qkv_params_total": 9,
+  "qkv_examples_per_space": {
+    "Only_semantic": [],
+    "Only_structure": [],
+    "Other": [],
+    "Overlap": [
+      "encoder.layers.0.attention.K.weight",
+      "encoder.layers.0.attention.Q.weight",
+      "encoder.layers.0.attention.V.weight",
+      "encoder.layers.1.attention.K.weight",
+      "encoder.layers.1.attention.Q.weight",
+      "encoder.layers.1.attention.V.weight",
+      "encoder.layers.2.attention.K.weight",
+      "encoder.layers.2.attention.Q.weight",
+      "encoder.layers.2.attention.V.weight"
+    ]
+  },
+  "space_sizes_qkv_params": {
+    "Only_semantic": 0,
+    "Only_structure": 0,
+    "Other": 0,
+    "Overlap": 9
+  }
+}

@@ -1,0 +1,10 @@
+name,score
+encoder.layers.0::head0,1.0
+encoder.layers.0::head1,1.0
+encoder.layers.0::head4,1.0
+encoder.layers.1::head1,1.0
+encoder.layers.1::head3,1.0
+encoder.layers.1::head7,1.0
+encoder.layers.2::head1,1.0
+encoder.layers.2::head2,1.0
+encoder.layers.2::head7,1.0

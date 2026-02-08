@@ -1,0 +1,90 @@
+{
+  "counts": {
+    "Only_semantic": {
+      "K": 8,
+      "Q": 8,
+      "V": 8,
+      "qkv_params": 9
+    },
+    "Only_structure": {
+      "K": 8,
+      "Q": 8,
+      "V": 8,
+      "qkv_params": 9
+    },
+    "Other": {
+      "K": 14,
+      "Q": 14,
+      "V": 14,
+      "qkv_params": 9
+    },
+    "Overlap": {
+      "K": 2,
+      "Q": 2,
+      "V": 2,
+      "qkv_params": 9
+    }
+  },
+  "dataset": "PROTEINS",
+  "heatmap_batches": 1,
+  "heatmap_data_mode": "target",
+  "heatmap_ratio": 0.1,
+  "heatmap_stats_raw": {
+    "Only_semantic": {
+      "max": 1.74793541431427,
+      "mean": 0.16938786208629608,
+      "sum": 16.261234283447266
+    },
+    "Only_structure": {
+      "max": 0.0732177272439003,
+      "mean": 0.007123751100152731,
+      "sum": 0.683880090713501
+    },
+    "Other": {
+      "max": 1.1127955913543701,
+      "mean": 0.07924956828355789,
+      "sum": 7.607958793640137
+    },
+    "Overlap": {
+      "max": 1.6730071306228638,
+      "mean": 0.052244216203689575,
+      "sum": 5.015444755554199
+    }
+  },
+  "masking": {
+    "binary": {
+      "heatmap_binary": false,
+      "heatmap_keep_percentile": 85.0,
+      "heatmap_percentile_mode": "global"
+    },
+    "dim_topk": {
+      "heatmap_topk_dim_k": null,
+      "heatmap_topk_dim_ratio": 0.8,
+      "heatmap_topk_mode": "per_row"
+    }
+  },
+  "num_qkv_params_total": 9,
+  "qkv_examples_per_space": {
+    "Only_semantic": [],
+    "Only_structure": [
+      "encoder.layers.0.attention.K.weight",
+      "encoder.layers.0.attention.Q.weight",
+      "encoder.layers.0.attention.V.weight",
+      "encoder.layers.1.attention.K.weight",
+      "encoder.layers.1.attention.Q.weight",
+      "encoder.layers.1.attention.V.weight"
+    ],
+    "Other": [],
+    "Overlap": [
+      "encoder.layers.2.attention.K.weight",
+      "encoder.layers.2.attention.Q.weight",
+      "encoder.layers.2.attention.V.weight"
+    ]
+  },
+  "space_sizes_qkv_params": {
+    "Only_semantic": 0,
+    "Only_structure": 6,
+    "Other": 0,
+    "Overlap": 3
+  }
+}

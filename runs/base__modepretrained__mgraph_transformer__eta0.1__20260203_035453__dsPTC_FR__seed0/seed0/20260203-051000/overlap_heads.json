@@ -1,0 +1,20 @@
+{
+  "overlap_heads": [
+    {
+      "head": 0,
+      "layer_key": "encoder.layers.0"
+    },
+    {
+      "head": 6,
+      "layer_key": "encoder.layers.0"
+    },
+    {
+      "head": 6,
+      "layer_key": "encoder.layers.1"
+    },
+    {
+      "head": 3,
+      "layer_key": "encoder.layers.2"
+    }
+  ]
+}
