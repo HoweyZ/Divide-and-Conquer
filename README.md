@@ -1,4 +1,4 @@
-## CellCLAT
+## Divide and Conquer
 Official repository for “Divide and Conquer: Parameter-Decoupled and Tailored Optimization of Semantic and Structural Neurons in Cellular Learning” 
 
 
